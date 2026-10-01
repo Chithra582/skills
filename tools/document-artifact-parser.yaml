@@ -1,0 +1,14 @@
+name: document-artifact-parser
+description: Parses, inspects, and extracts structural elements from office documents
+  (DOCX, PDF, PPTX, XLSX).
+input_schema:
+  type: object
+  properties:
+    file_path:
+      type: string
+      description: Absolute or relative path to the document file.
+    extract_mode:
+      type: string
+      description: 'Extraction mode: text, tables, metadata, or full_structure.'
+  required:
+  - file_path

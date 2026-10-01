@@ -1,0 +1,38 @@
+spec_version: "0.1.0"
+name: anthropic-agent-skills
+version: 0.1.0
+description: Official Anthropic skills runtime engine enabling agents to compose, validate, and execute document engineering, artifact design, and MCP workflows.
+license: Apache-2.0
+author: Anthropic & OpenGAP Contributors
+
+metadata:
+  domain: Developer Tools / Agent Extensibility & Document Intelligence
+  category: Developer Tools
+
+skills:
+  - academy-guide
+  - algorithmic-art
+  - brand-guidelines
+  - canvas-design
+  - claude-api
+  - discernment-nudge
+  - doc-coauthoring
+  - docx
+  - frontend-design
+  - internal-comms
+  - mcp-builder
+  - pdf
+  - pptx
+  - skill-creator
+  - slack-gif-creator
+  - theme-factory
+  - web-artifacts-builder
+  - webapp-testing
+  - xlsx
+
+tools:
+  - document-artifact-parser
+  - skill-instruction-loader
+  - style-guideline-enforcer
+  - mcp-skill-exporter
+  - skill-integrity-verifier

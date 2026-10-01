@@ -1,0 +1,14 @@
+name: style-guideline-enforcer
+description: Validates document design, typography, spacing, and brand guidelines
+  against official standards.
+input_schema:
+  type: object
+  properties:
+    artifact_path:
+      type: string
+      description: Path to the generated artifact or draft document.
+    guideline_preset:
+      type: string
+      description: 'Guideline preset: corporate, academic, modern_minimal, or anthropic.'
+  required:
+  - artifact_path

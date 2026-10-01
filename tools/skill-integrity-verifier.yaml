@@ -1,0 +1,14 @@
+name: skill-integrity-verifier
+description: Audits skill manifest frontmatter, token envelopes, and asset dependencies
+  for OpenGAP compliance.
+input_schema:
+  type: object
+  properties:
+    skills_dir:
+      type: string
+      description: Path to the skills directory to audit.
+    strict_mode:
+      type: boolean
+      description: Whether to enforce strict 0-warning token budgets.
+  required:
+  - skills_dir

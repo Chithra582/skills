@@ -1,0 +1,17 @@
+name: mcp-skill-exporter
+description: Packages and exports skill definitions into Model Context Protocol (MCP)
+  server configurations.
+input_schema:
+  type: object
+  properties:
+    skill_names:
+      type: array
+      description: List of skill names to export as MCP tool endpoints.
+      items:
+        type: string
+    output_dir:
+      type: string
+      description: Destination directory for MCP configuration files.
+  required:
+  - skill_names
+  - output_dir

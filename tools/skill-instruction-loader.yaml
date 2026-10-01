@@ -1,0 +1,14 @@
+name: skill-instruction-loader
+description: Loads procedural skill instructions, asset templates, and formatting
+  gotchas for a target skill.
+input_schema:
+  type: object
+  properties:
+    skill_name:
+      type: string
+      description: Name of the target skill to load from the skills catalog.
+    section:
+      type: string
+      description: Optional specific section or gotcha to load.
+  required:
+  - skill_name
