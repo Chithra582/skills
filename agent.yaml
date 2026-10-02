@@ -1,5 +1,5 @@
 spec_version: "0.1.0"
-name: anthropic-agent-skills
+name: skills
 version: 0.1.0
 description: Official Anthropic skills runtime engine enabling agents to compose, validate, and execute document engineering, artifact design, and MCP workflows.
 license: Apache-2.0
